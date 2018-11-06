@@ -1,14 +1,14 @@
-# Writeup
+# Perception project report
 
 This is submission of the "3D Perception" project for Udacity SE Robotics Nano degree. This includes exercised 1, 2, 3 and the final project. As I'm late with my submission I decided not to do the "challenge" part, only the basic tasks required to pass the project. 
 
-# Exercise 1. Pipeline for filtering and RANSAC plane fitting implemented
+## Exercise 1. Pipeline for filtering and RANSAC plane fitting implemented
 
-# Exercise 2. Pipeline including clustering for segmentation implemented
+## Exercise 2. Pipeline including clustering for segmentation implemented
 
-# Exercise 3. Features extracted and SVM trained. Object recognition implemented
+## Exercise 3. Features extracted and SVM trained. Object recognition implemented
 
-# Project: Pick and Place Setup
+## Project: Pick and Place Setup
 
 I'm using the same training parameter as in the previous excercise. I replaced models at Exercise-3/sensor_stick/scripts/capture_features.py from:
 
