@@ -3,10 +3,15 @@
 This is submission of the "3D Perception" project for Udacity SE Robotics Nano degree. This includes exercised 1, 2, 3 and the final project. As I'm late with my submission I decided not to do the "challenge" part, only the basic tasks required to pass the project. 
 
 ## Exercise 1. Pipeline for filtering and RANSAC plane fitting implemented
+See [RANSAC.py](https://github.com/SeninAndrew/RoboND-Perception-Project/blob/master/Exercise-1/RANSAC.py).
 
 ## Exercise 2. Pipeline including clustering for segmentation implemented
+See [segmentation.py](https://github.com/SeninAndrew/RoboND-Perception-Project/blob/master/Exercise-2/sensor_stick/scripts/segmentation.py).
 
 ## Exercise 3. Features extracted and SVM trained. Object recognition implemented
+See [object_recognition.py](https://github.com/SeninAndrew/RoboND-Perception-Project/blob/master/Exercise-3/sensor_stick/scripts/object_recognition.py) and [train_svm.py](https://github.com/SeninAndrew/RoboND-Perception-Project/blob/master/Exercise-3/sensor_stick/scripts/train_svm.py).
+
+![Example 3 confusion matrix](https://github.com/SeninAndrew/RoboND-Perception-Project/blob/master/imgs/Example3_confusion.png)
 
 ## Project: Pick and Place Setup
 
