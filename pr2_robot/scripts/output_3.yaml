@@ -1,4 +1,73 @@
 object_list:
+- arm_name: left
+  object_name: sticky_notes
+  pick_pose:
+    orientation:
+      w: 0.0
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    position:
+      x: 0.43921929597854614
+      y: 0.2158132642507553
+      z: 0.6808396577835083
+  place_pose:
+    orientation:
+      w: 0.0
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    position:
+      x: 0
+      y: 0.71
+      z: 0.605
+  test_scene_num: 3
+- arm_name: left
+  object_name: book
+  pick_pose:
+    orientation:
+      w: 0.0
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    position:
+      x: 0.4928167462348938
+      y: 0.08314545452594757
+      z: 0.7267583012580872
+  place_pose:
+    orientation:
+      w: 0.0
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    position:
+      x: 0
+      y: 0.71
+      z: 0.605
+  test_scene_num: 3
+- arm_name: right
+  object_name: snacks
+  pick_pose:
+    orientation:
+      w: 0.0
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    position:
+      x: 0.42577019333839417
+      y: -0.32535356283187866
+      z: 0.7492262125015259
+  place_pose:
+    orientation:
+      w: 0.0
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    position:
+      x: 0
+      y: -0.71
+      z: 0.605
+  test_scene_num: 3
 - arm_name: right
   object_name: biscuits
   pick_pose:
@@ -8,9 +77,55 @@ object_list:
       y: 0.0
       z: 0.0
     position:
-      x: 0.5895256996154785
-      y: -0.2190546840429306
-      z: 0.7058215141296387
+      x: 0.5900871753692627
+      y: -0.22031612694263458
+      z: 0.7044627070426941
+  place_pose:
+    orientation:
+      w: 0.0
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    position:
+      x: 0
+      y: -0.71
+      z: 0.605
+  test_scene_num: 3
+- arm_name: left
+  object_name: eraser
+  pick_pose:
+    orientation:
+      w: 0.0
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    position:
+      x: 0.607715904712677
+      y: 0.28347092866897583
+      z: 0.6465022563934326
+  place_pose:
+    orientation:
+      w: 0.0
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    position:
+      x: 0
+      y: 0.71
+      z: 0.605
+  test_scene_num: 3
+- arm_name: right
+  object_name: soap2
+  pick_pose:
+    orientation:
+      w: 0.0
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    position:
+      x: 0.45430007576942444
+      y: -0.04421429708600044
+      z: 0.6758938431739807
   place_pose:
     orientation:
       w: 0.0
@@ -31,9 +146,9 @@ object_list:
       y: 0.0
       z: 0.0
     position:
-      x: 0.5624533891677856
-      y: 0.03815353661775589
-      z: 0.6975882649421692
+      x: 0.6781514286994934
+      y: 0.005499677732586861
+      z: 0.6749135255813599
   place_pose:
     orientation:
       w: 0.0
