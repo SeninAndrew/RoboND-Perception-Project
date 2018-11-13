@@ -1,6 +1,15 @@
 # Perception project report
 
-This is submission of the "3D Perception" project for Udacity SE Robotics Nano degree. This includes exercised 1, 2, 3 and the final project. As I'm late with my submission I decided not to do the "challenge" part, only the basic tasks required to pass the project. 
+This is submission of the "3D Perception" project for Udacity SE Robotics Nano degree. This includes exercised 1, 2, 3 and the final project. As I'm late with my submission I decided not to do the "collision" part, only the basic tasks required to pass the project. 
+
+**Some challeges I faced**
+In the previous project I was using a native setup on my machine. However, I did not manage to make it work with the last project. So I had to switch to the VM setup. At first I tried with VirtualBox but performance was terrible. For some reason I was not able to open the VM from the VMPlayer GUI. So it took a lot of time to realize to run it from command line.
+
+For the implementation of the Exercises the main problem was tuning of parameters and slow iteration cycle. When I tried something new I had to test it in the emulator and often restart the pipeline. There might be a mem leakage somewhere in the simulator or just not enough memory on my machine. But I had to restart the setup from time to time as it might become non-responsive. 
+
+Collecting features for the model training was very-very slow. So, it took probably a few days to collect the features and train the model. 
+
+I think the final model does a reasonably good job of object classification. But the pick and place part still requires tuning. It can pick it up in about 50% of cases. Partially that's because I have not finished the "collision avoidance" part. But sometimes it is just unable to pick up an object. The robot moved the hand to the correct position above the objects, tries to pinch it but still unable to pick it up. It might be some limitations of the simulator or some tuning of the centroid estimation code. 
 
 ## Exercise 1. Pipeline for filtering and RANSAC plane fitting implemented
 See [RANSAC.py](https://github.com/SeninAndrew/RoboND-Perception-Project/blob/master/Exercise-1/RANSAC.py).
