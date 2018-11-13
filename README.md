@@ -3,6 +3,7 @@
 This is submission of the "3D Perception" project for Udacity SE Robotics Nano degree. This includes exercised 1, 2, 3 and the final project. As I'm late with my submission I decided not to do the "collision" part, only the basic tasks required to pass the project. 
 
 **Some challeges I faced**
+
 In the previous project I was using a native setup on my machine. However, I did not manage to make it work with the last project. So I had to switch to the VM setup. At first I tried with VirtualBox but performance was terrible. For some reason I was not able to open the VM from the VMPlayer GUI. So it took a lot of time to realize to run it from command line.
 
 For the implementation of the Exercises the main problem was tuning of parameters and slow iteration cycle. When I tried something new I had to test it in the emulator and often restart the pipeline. There might be a mem leakage somewhere in the simulator or just not enough memory on my machine. But I had to restart the setup from time to time as it might become non-responsive. 
